@@ -371,12 +371,20 @@ class _AppState extends State<App> {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      backgroundColor: isDarkMode ? const Color(0xFF0a0a0a) : const Color(0xFFF8FAFC), // White-ish background for light mode
-      body: SafeArea(
-        child: AnimatedSwitcher(
-          duration: const Duration(milliseconds: 300),
-          child: _buildScreen(),
+    return Container(
+      color: isDarkMode ? const Color(0xFF121212) : const Color(0xFFE2E8F0), // Subtle contrast background for desktop area
+      child: Center(
+        child: ConstrainedBox(
+          constraints: const BoxConstraints(maxWidth: 450),
+          child: Scaffold(
+            backgroundColor: isDarkMode ? const Color(0xFF0a0a0a) : const Color(0xFFF8FAFC), 
+            body: SafeArea(
+              child: AnimatedSwitcher(
+                duration: const Duration(milliseconds: 300),
+                child: _buildScreen(),
+              ),
+            ),
+          ),
         ),
       ),
     );

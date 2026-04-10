@@ -1,4 +1,4 @@
-# video_compressor
+# Video Compressor
 
 A new Flutter project.
 

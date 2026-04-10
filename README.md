@@ -25,9 +25,14 @@ Video Compressor is a modern, cross-platform application that empowers users to 
 - **Integrations**: Platform-specific compression engines (FFmpeg/MethodChannels)
 
 ## 📸 Screenshots
-| Dashboard | Compression Settings | Result Screen |
+
+| Dashboard | Video Settings | Compression Progress |
 | :---: | :---: | :---: |
-| ![Placeholder](https://via.placeholder.com/200x400?text=Dashboard) | ![Placeholder](https://via.placeholder.com/200x400?text=Settings) | ![Placeholder](https://via.placeholder.com/200x400?text=Results) |
+| ![Dashboard](assets/screenshots/dashboard.png) | ![Settings](assets/screenshots/settings.png) | ![Processing](assets/screenshots/processing.png) |
+
+| All Done! | File Manager |
+| :---: | :---: |
+| ![Result](assets/screenshots/result.png) | ![File Manager](assets/screenshots/file_manager.png) |
 
 ## 🚀 Getting Started
 
